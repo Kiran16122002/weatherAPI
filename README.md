@@ -1,1 +1,7 @@
-# weatherAPI
+JavaScript File (wapi.js): This file contains the logic for fetching weather data from the OpenWeatherMap API. It defines an asynchronous function weatherUp(cityName) that takes a city name as input, makes a request to the weather API using the provided API key, and processes the response. The function updates the HTML elements with the city's name, temperature (converted from Kelvin to Celsius), humidity, and wind speed. It also changes the weather image based on the weather condition (e.g., haze, clouds, mist, snow, rain, drizzle). An event listener is added to a button to trigger the weather update when clicked.
+
+HTML File (index.html): This file structures the user interface of the weather application. It includes an input field for users to enter a city name, a button to trigger the search, and sections to display the weather information (city name, temperature, humidity, wind speed, and a weather image). The weather information is initially hidden until a valid city is searched.
+
+CSS File (style.css): This file styles the application, providing a visually appealing layout. It includes styles for the main container, search input, button, weather display, and other elements. The background is set to a gradient, and various elements are styled for spacing, alignment, and font sizes.
+
+Overall, this weather application allows users to input a city name and retrieve current weather information, which is displayed in a user-friendly format.
