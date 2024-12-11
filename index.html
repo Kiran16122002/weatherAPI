@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" placeholder="enter city" spellcheck="false">
+           <button><img src="./wimages/search.png" alt="searchimage"></button> 
+        </div>
+        <div class="weather hide">
+            <img src="./wimages/mist.png" alt="weather" class="images">
+                <p class="city"></p>
+                <p class="temp"></p>
+        <div class="details">
+               <div class="colm">
+                <img src="./wimages/humidity.png" alt="humidity">
+                <div>
+                <p>humidity</p>
+                <p class="humidity"></p>
+            </div>
+               </div>
+               <div class="colm">
+                <img src="./wimages/wind.png" alt="wind">
+                 <div>
+                <p>wind</p>
+                <p class="wind"></p>
+               </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="wapi.js"></script>
+</body>
+</html>

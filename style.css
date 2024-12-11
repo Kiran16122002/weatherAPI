@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:snow;
+}
+
+.main{
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px 20px;
+    background: hsla(189, 86%, 64%, 1);
+
+background: linear-gradient(90deg, hsla(189, 86%, 64%, 1) 0%, hsla(277, 67%, 77%, 1) 50%, hsla(218, 88%, 59%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(189, 86%, 64%, 1) 0%, hsla(277, 67%, 77%, 1) 50%, hsla(218, 88%, 59%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(189, 86%, 64%, 1) 0%, hsla(277, 67%, 77%, 1) 50%, hsla(218, 88%, 59%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#53DBF2", endColorstr="#CE9EEC", GradientType=1 );
+    border-radius: 20px;
+    margin: 100px auto 0;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 5px;
+}
+.search input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.search button{
+    height: 45px;
+    width: 45px;
+    border: none;
+    background: #ebfffc;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;;
+}
+.search img{
+    height: 15px;
+    width: 15px;
+}
+.weather img{
+    width: 150px;
+}
+.weather p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.colm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.colm p{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.colm img{
+    width: 60px;
+    margin-right: 15px;
+}
+.hide{
+    display: none;
+}
